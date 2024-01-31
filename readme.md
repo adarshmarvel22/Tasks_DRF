@@ -21,6 +21,10 @@ This is a simple Django-based Todo app that provides RESTful API endpoints for m
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
+   We can skip the virtual environment creation and proceed with the following commands:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Apply migrations to create the database:
 
