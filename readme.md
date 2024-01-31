@@ -104,7 +104,9 @@ DELETE /v1/tasks/{id}
 ```
 
 ### Bulk add tasks
+
 Note: The bulk add tasks has got a bug and not working as of now
+
 ```bash
 POST /v1/tasks/bulk
 ```
