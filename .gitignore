@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+
+# Compiled Python files
+*.pyc
+
+# Ignore local configuration files
+*.log
+*.swp
+*.swo
