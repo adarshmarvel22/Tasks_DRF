@@ -104,7 +104,6 @@ DELETE /v1/tasks/{id}
 ```
 
 ### Bulk add tasks
-
 Note: The bulk add tasks has got a bug and not working as of now
 
 ```bash
@@ -136,4 +135,10 @@ simply navigate to the root directory and run:
 ```
 pytest
 ```
-Note : The pytest file was written according to flask based so liitle structural changes were made in the test file to test the same endpoints with the same tests.
+Note : The pytest file was written according to flask based application so liitle structural changes were made in the test file to test the same endpoints with the same tests.
+
+Navigate to the following path to view the test cases(tests cases are completely same as given in the assignment except for a common server location/port url i.e. port:8000):
+
+```
+todo_app/tests/test_api.py
+```

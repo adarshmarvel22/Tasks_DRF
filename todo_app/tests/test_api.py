@@ -1,5 +1,4 @@
-# todo_app/tests/test_api.py
-# modified the syntax and structure of the given test code that was set considering flask app
+# modified the structure of the given test code that was set considering flask app
 # to match the django-drf api test
 import requests
 import json
@@ -14,7 +13,6 @@ def test_create_task():
     assert isinstance(r.json()["id"], int)
     assert len(r.json()) == 1
 
-# @pytest.mark.django_db
 # def test_list_all_tasks():
 #     r = requests.get(BASE_URL)
 #     assert r.status_code == 200
