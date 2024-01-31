@@ -21,7 +21,7 @@ class TaskListCreateView(generics.ListCreateAPIView):
         headers = self.get_success_headers(serializer.data)
 
         if 'tasks' in request.data:
-            # If 'tasks' key is present ,return the IDs of all tasks
+            # If 'tasks' key is present,return the IDs of all tasks
             response_data = {'tasks': [{'id': task['id']} for task in serializer.data['tasks']]}
         else:
             response_data = {'id': serializer.data['id']}
