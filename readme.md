@@ -146,3 +146,5 @@ Navigate to the following path to view the test cases(tests cases are completely
 ```
 todo_app/tests/test_api.py
 ```
+Test results screenshot:
+![Alt text](wdpt.png)
